@@ -7,6 +7,7 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { RegistrationpageComponent } from './registrationpage/registrationpage.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomepageComponent } from './homepage/homepage.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [
     provideClientHydration()

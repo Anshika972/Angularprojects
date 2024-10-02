@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NgModule } from '@angular/core';
+
 
 @Component({
   selector: 'app-registrationpage',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './registrationpage.component.css'
 })
 export class RegistrationpageComponent {
+lastname: any;
+firstname: any;
+
 
 }

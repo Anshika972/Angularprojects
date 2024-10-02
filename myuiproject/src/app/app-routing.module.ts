@@ -4,6 +4,7 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { RegistrationpageComponent } from './registrationpage/registrationpage.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { FormsModule } from '@angular/forms';
 
 const routes: Routes = [
   { path: 'login', component: LoginpageComponent },
@@ -16,6 +17,8 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  
+
 })
 export class AppRoutingModule { }
